@@ -1,29 +1,29 @@
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 170px;
-
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-menu{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 60px;
-    font-size: 20px;
-
+.logo {
+  margin-left: -10px; /* Move the logo to the left */
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  font-size: 20px;
 }
 
-.nav-connect{
-    padding: 20px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-    font-size: 22px;
-    cursor: pointer;
-    transition: 0.5s;
-
+.nav-connect {
+  padding: 20px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #ff70ba 0.36%, #c5ead8 102.06%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: 50px;
 }
-.nav-connect:hover{
-    transform: scale(1.05);
+.nav-connect:hover {
+  transform: scale(1.05);
 }
