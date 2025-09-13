@@ -6,10 +6,10 @@ const Hero = () => {
     <div className="hero">
       <img src={profile_img} alt="" />
       <h1>
-        <span>Im Laura</span>, frontend developer!
+        <span>I'm Laura</span>, a frontend developer!
       </h1>
       <p>I have expereince in multiuple areas and Im awesome</p>
-      <div className="her-action">
+      <div className="hero-action">
         <div className="hero-connect">Connect With Me</div>
         <div className="hero-resume">My Resume</div>
       </div>
