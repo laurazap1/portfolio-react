@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 0 50px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background: #090909;
 }
 
 .logo {
@@ -12,18 +19,30 @@
   align-items: center;
   list-style: none;
   gap: 50px;
+  margin-left: auto; /* Space between logo and menu */
   font-size: 20px;
 }
 
 .nav-connect {
-  padding: 20px;
-  border-radius: 50px;
-  background: linear-gradient(267deg, #ff70ba 0.36%, #c5ead8 102.06%);
-  font-size: 22px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background: linear-gradient(267deg, #37b7e2 0.36%, #3d6dab 102.06%);
+  font-size: 18px;
   cursor: pointer;
   transition: 0.5s;
-  margin-right: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .nav-connect:hover {
   transform: scale(1.05);
+}
+.logo {
+  position: fixed; /* Fix the logo in place */
+  top: 10px; /* Position it 10px from the top of the viewport */
+  left: 20px; /* Position it 20px from the left of the viewport */
+  font-size: 36px; /* Make the text large */
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  color: #fcf8f8; /* Set the color of the text */
+  z-index: 1000; /* Ensure it stays above other elements */
 }

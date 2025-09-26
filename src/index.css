@@ -4,7 +4,7 @@
 }
 body {
   height: 150vh;
-  background: #f5f5f5;
-  color: rgb(149, 199, 171);
-  font-family: "outfit";
+  /* background: #000000;*/
+  color: rgb(248, 241, 241);
+  font-family: "Public Sans", sans-serif;
 }

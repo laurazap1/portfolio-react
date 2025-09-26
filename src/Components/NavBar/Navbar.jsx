@@ -1,19 +1,18 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
+//import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src={logo} alt="" />
+      <div class="logo">LAURA ZAPATA</div>
       <ul className="nav-menu">
-        <li>Home</li>
-        <li>About me</li>
-        <li>Services</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <li>HOME</li>
+        <li>ABOUT ME</li>
+        <li>SERVICES</li>
+        <li>PORTFOLIO</li>
       </ul>
-      <div className="nav-connect">Connect With Me</div>
+      <div className="nav-connect">CONNECT WITH ME</div>
     </div>
   );
 };
